@@ -1,0 +1,83 @@
+body{
+  background-color: #333;
+  color: #fff;
+}
+.task-col{
+  background-color: #555;
+  border-color: 7px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size:22px;
+  position:relative;
+  border-radius: 50px;
+background: #333333;
+box-shadow:  16px 16px 32px #262626,
+             -16px -16px 32px #404040;
+
+
+}
+.task-col div{
+  display:flex;
+  align-items:center;
+  
+}
+.task-col .done {
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex: 1;
+}
+.taskNumber{
+  color: #999;
+  border: 1px solid #999;
+  border-radius:50%;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  align-items: center;
+  margin-right: 8px;
+  justify-content: center;
+}
+
+.task-col .iconsWrap{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right:15px;
+  width: auto;
+  display: inline-block;
+  
+}
+.task-col .iconsWrap span{
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  color: #00ff88;
+  
+}
+.task-col .iconsWrap span:hover{
+  color: #ffff10;
+
+
+}
+.btn-lg{
+  margin: 0px 5px 0px 5px;
+  border-radius: 20px;
+
+box-shadow:  16px 16px 32px #262626,
+             -16px -16px 32px #404040;
+}
+.form-control{
+  position: relative;
+  padding: 7px;
+  border-radius: 17px;
+
+box-shadow:  16px 16px 32px #262626,
+             -16px -16px 32px #404040;
+}
+
+.App {
+  text-align: center;
+}
