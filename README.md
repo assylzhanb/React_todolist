@@ -11,7 +11,7 @@ This is a simple react project that demonstrates the basic functionality of a re
 ## Installation
 1. Clone the repository
 ```
-git clone mylink
+git clone https://github.com/assylzhanb/React_todolist.git
 ```
 2. Install the dependencies
 ```
